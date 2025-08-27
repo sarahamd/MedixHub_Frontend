@@ -50,9 +50,7 @@ li {
 a {
   text-decoration: none;
 }
-button {
-  border: none;
-}
+
 img {
   user-select: none;
   font-size: $fs-sm;
@@ -63,30 +61,6 @@ img {
 }
 
 
-// Font Size Classes
-.fs-xs {
-  font-size: $fs-xs;
-}
-
-.fs-sm {
-  font-size: $fs-sm;
-}
-
-.fs-md {
-  font-size: $fs-md;
-}
-
-.fs-lg {
-  font-size: $fs-lg;
-}
-
-.fs-xl {
-  font-size: $fs-xl;
-}
-
-.fs-2xl {
-  font-size: $fs-2xl;
-}
 
 
 // Scrollbar
