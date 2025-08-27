@@ -1,0 +1,5 @@
+@use "./Variables" as *;
+.button-disabled {
+  opacity: 0.7 !important;
+  cursor: not-allowed;
+}

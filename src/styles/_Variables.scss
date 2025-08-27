@@ -1,0 +1,17 @@
+// Template colors 
+$primaryColor: #4200FF;
+$title: #404040;
+$desc: #A7A7A7;
+$colorDanger: #f1352b;
+$colorSuccess: #009900;
+$colorSky: #41c2f2;
+$colorBorder: #99999999;
+$templateWhite:#fff;
+
+// Template fonts sizes 12 / 14 / 16 / 20 / 24 / 30
+$fs-xs: 12px;
+$fs-sm: 14px;
+$fs-md: 16px;
+$fs-lg: clamp(0.6rem, 3vw, 0.6667rem);
+$fs-xl: clamp(0.7333rem, 3vw, 0.8rem);
+$fs-2xl: clamp(0.8667rem, 3vw, 1rem);

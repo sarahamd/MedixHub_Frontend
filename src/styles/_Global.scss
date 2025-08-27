@@ -1,0 +1,109 @@
+@use "./Variables" as *;
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 30px;
+  background-color: $templateWhite !important;
+}
+body {
+  background-color: $templateWhite !important;
+  font-family: "Inter", "Helvetica", sans-serif;
+  // default
+  [dir="rtl"] & {
+    font-family: "Tajawal", "Arial", sans-serif !important;
+  }
+}
+.quill-body {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  white-space: pre-wrap;
+  overflow: hidden;
+  max-width: 100%;
+  * {
+    max-width: 100%; /* Ensure all elements respect container boundaries */
+    box-sizing: border-box; /* Prevent content from overflowing */
+  }
+
+  h1,
+  h2,
+  h3,
+  p,
+  ul,
+  ol,
+  blockquote {
+    all: unset; /* Reset all inherited styles */
+    display: revert; /* Revert to the browser's default styles */
+    margin: 0; /* Remove any external margin interference */
+    padding: 0;
+  }
+
+}
+
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  border: none;
+}
+img {
+  user-select: none;
+  font-size: $fs-sm;
+}
+
+.Toastify {
+  font-size: $fs-md;
+}
+
+
+// Font Size Classes
+.fs-xs {
+  font-size: $fs-xs;
+}
+
+.fs-sm {
+  font-size: $fs-sm;
+}
+
+.fs-md {
+  font-size: $fs-md;
+}
+
+.fs-lg {
+  font-size: $fs-lg;
+}
+
+.fs-xl {
+  font-size: $fs-xl;
+}
+
+.fs-2xl {
+  font-size: $fs-2xl;
+}
+
+
+// Scrollbar
+// ::-webkit-scrollbar {
+//   width: 8px;
+// }
+// ::-webkit-scrollbar-track {
+//   background: $secondaryColor;
+// }
+// *::-moz-scrollbar-track {
+//   background-color: $secondaryColor;
+// }
+// ::-webkit-scrollbar-thumb {
+//   background: $primaryColor;
+//   border-radius: 8px;
+// }
+// *::-moz-scrollbar-thumb {
+//   background-color: $primaryColor;
+//   border-radius: 8px;
+// }

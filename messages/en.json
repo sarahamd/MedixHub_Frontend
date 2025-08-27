@@ -1,0 +1,14 @@
+{
+  "navbar": {
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact",
+    "gallery": "Gallery",
+    "blogs": "Blogs",
+    "projects": "Projects",
+    "english": "English",
+    "arabic": "Arabic",
+    "signup": "Sign Up",
+    "logout": "Logout"
+  }
+}

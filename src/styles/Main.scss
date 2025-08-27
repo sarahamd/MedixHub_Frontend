@@ -1,0 +1,10 @@
+// Tailwind
+@use "tailwindcss/base";
+@use "tailwindcss/components";
+@use "tailwindcss/utilities";
+
+// Main styles
+@use "./Variables";
+@use "./Global";
+@use "./Events";
+@use "./Responsive";
